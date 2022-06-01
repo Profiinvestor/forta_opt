@@ -43,11 +43,11 @@ function forta_address {
 
 function forta_config {
   sudo tee <<EOF >/dev/null $HOME/.forta/config.yml
-  chainId: 10
+  chainId: 56
 
   scan:
     jsonRpc:
-      url: https://mainnet.optimism.io
+      url: https://bsc-dataseed.binance.org/
 
   trace:
     enabled: false
